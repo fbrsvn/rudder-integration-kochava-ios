@@ -24,7 +24,7 @@ RSConfigBuilder *builder = [[RSConfigBuilder alloc] init];
 [builder withDataPlaneUrl:DATA_PLANE_URL];
 [builder withFactory:[RudderKochavaFactory instance]];
 [RSClient getInstance:WRITE_KEY config:[builder build]];
-```
+```v
 
 ## Send Events
 
