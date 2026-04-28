@@ -17,7 +17,7 @@ pod 'Rudder-Kochava'
 ```
 
 ## Initialize ```RudderClient```
-
+t
 Put this code in your ```AppDelegate.m``` file under the method ```didFinishLaunchingWithOptions```
 ```
 RSConfigBuilder *builder = [[RSConfigBuilder alloc] init];
